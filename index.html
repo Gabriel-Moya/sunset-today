@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Por do sol hoje</title>
+</head>
+
+<body>
+    <section id="container">
+
+        <div id="titleAndSubtitle">
+            <h1 id="title">Por do Sol hoje</h1>
+            <h2 id="subtitle">Saiba o horário que o sol irá se por hoje em sua região.</h2>
+        </div>
+
+        <div id="form">
+
+            <form action="/" id="captureData" method="post">
+                <label for="latitude">Latitude</label>
+                <input type="text" name="latitude" id="latitude" placeholder="-15.7964173">
+                <label for="longitude">Longitude</label>
+                <input type="text" name="longitude" id="longitude" placeholder="-47.8919857">
+                <button type="submit" name="currentData">Utilizar dados inseridos</button>
+                <button type="button" name="captureLocation" id="captureGPS">Utilizar minha localização atual</button>
+            </form>
+
+            <div id="result">
+                
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
