@@ -24,7 +24,7 @@ form.addEventListener('submit', function (e) {
     // Somente debugando
     console.log(`${sunset} - ${typeof (sunset)}`);
 
-    const result = `Por do sol será às: ${sunsetTime}`;
+    const result = `Por do sol será às ${sunsetTime}`;
     setResult(result);
 
 
